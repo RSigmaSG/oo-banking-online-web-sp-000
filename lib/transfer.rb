@@ -23,6 +23,7 @@ class Transfer
       if(sender.balance < amount)
         
         puts "Transaction rejected. Please check your account balance."
+        return "Transaction rejected. Please check your account balance."
         
       else
         
