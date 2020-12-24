@@ -30,6 +30,8 @@ class Transfer
         @receiver.deposit(@amount)
         @sender.deposit(0-@amount)
         
+        return "complete"
+        
       end
       
     end
