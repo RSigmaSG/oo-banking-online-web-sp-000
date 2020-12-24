@@ -27,7 +27,7 @@ class Transfer
         
       else
         
-        
+        reciever.deposit(amount)
         
       end
       
