@@ -43,12 +43,12 @@ class Transfer
     if(@status == "complete")
       
         
-        @receiver.deposit(@amount)
-        @sender.deposit(0-@amount)
+      @receiver.deposit(0-@amount)
+      @sender.deposit(@amount)
+      
+      @status = "complete"
         
-        @status = "complete"
-        
-      end
+      
       
     end 
     
