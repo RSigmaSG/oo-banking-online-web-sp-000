@@ -11,5 +11,23 @@ class BankAccount
     @status = "open"
     
   end
+  
+  def deposit(amount)
+    
+    @balance += amount
+    
+  end
+  
+  def display_balance
+    
+    puts @balance
+    
+  end
+  
+  def valid?
+    
+    (status == "open" && balance > 0) ? true | false
+    
+  end
 
 end
