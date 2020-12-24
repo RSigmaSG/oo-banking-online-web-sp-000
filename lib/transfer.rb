@@ -19,7 +19,7 @@ class Transfer
   
   def execute_transaction
     
-    if(sender)
+    #if(sender.balance >)
     
   end
   
