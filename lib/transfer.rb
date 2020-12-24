@@ -27,7 +27,7 @@ class Transfer
         
       else
         
-        @reciever.deposit(@amount)
+        @receiver.deposit(@amount)
         @sender.deposit(0-@amount)
         
       end
